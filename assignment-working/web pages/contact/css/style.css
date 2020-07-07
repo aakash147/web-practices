@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.head{
+	background: #42455a;
+	height: 145px;
+}
+.head p{
+	font-size: 36px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 4%;
+
+}
+.form{
+ 	position: relative;
+ 	z-index: 1;
+ 	background: rgba(0,0,0,0.5);
+ 	max-width: 360px;
+ 	margin: 0 auto 100px;
+ 	margin-left: 65px;
+ 	margin-top: 100px;
+ 	padding: 45px;
+ 	text-align: center; 
+ }
+ .form input{
+ 	font-family: "Roboto", sans-serif;
+ 	outline: 1;
+ 	background: #f2f2f2;
+ 	width: 100%;
+ 	border: 0;
+ 	margin: 0 0 15px;
+ 	padding: 15px;
+ 	box-sizing: border-box;;
+ 	font-size: 12px;
+
+ }
+ .form button{
+ 	font-family: "Roboto", sans-serif;
+ 	text-transform: uppercase;
+ 	outline: 0;
+ 	background: #4CAF50;
+ 	width: 100%;
+ 	border: 0;
+ 	padding: 15px;
+ 	color: #ffffff;
+ 	font-size: 12px;
+ 	cursor: pointer;
+ }
+ .picture{
+ 	float: right;
+ 	padding-right: 235px;
+ 	margin-top: 125px;
+ }
+ .social{
+	text-align: center;
+	right: 35px; 
+	bottom: 35px;
+	position: absolute;
+}
+.social ul{
+	display: inline-flex;
+	margin: 10px auto;
+	text-align: center;
+}
+.social ul li{
+	list-style: none;
+	margin: 0 10px;
+	text-align: center;
+}
+.social ul li a{
+	color: #999;
+	border-radius: 50%;
+	border: 1px solid #999;
+	padding: 5px;
+	display: block;
+}

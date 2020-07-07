@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignIn</title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+<body>
+	<div class="login-page">
+		<div class="form">
+			<form class="register">
+				<input type="text" placeholder="User Name">
+				<input type="Password" placeholder="Password">
+				<input type="text" placeholder="abc@gmail.com">
+				<button>Create</button>
+				<p class="message">Already Registered?<a href="#">Login</a> </p>
+			</form>
+			<form class="login">
+				<input type="text" placeholder="User Name">
+				<input type="Password" placeholder="Password">
+				<button>login</button>
+				<p class="message">Not Registered?<a href="#">Register</a> </p>
+			</form>
+			
+		</div>
+		
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script>
+		$('.message a').click(function(){
+			$('form').animate({height: "toggle", opacity: "toggle"},"slow");
+		});
+	</script>
+</body>
+</html>
